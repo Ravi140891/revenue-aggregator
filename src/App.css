@@ -1,0 +1,85 @@
+.App {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 5px 10px;
+  margin-right: 1rem;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  background-color: cornsilk;
+}
+table th {
+  background-color: #3498db;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+select {
+  outline: none;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+.green {
+  color: green;
+}
+
+.view-all-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page-link {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.page-link:hover,
+.page-link.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* ... (any additional CSS styles you may have) */
